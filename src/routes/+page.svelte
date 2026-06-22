@@ -1,14 +1,17 @@
 <script lang="ts">
-	import PageNav from '$lib/components/PageNav.svelte';
-	import portrait from '$lib/assets/portrait.webp';
+	import PageNav from "$lib/components/PageNav.svelte";
+	import portrait from "$lib/assets/portrait.webp";
 
 	const socials = [
-		{ href: 'mailto:abdulfta12@gmail.com', label: 'Email' },
-		{ href: 'https://www.linkedin.com/in/abdul-fathaah-s-614567137/', label: 'LinkedIn' },
+		{ href: "mailto:abdulfta12@gmail.com", label: "Email" },
 		{
-			href: 'https://scholar.google.com/citations?user=hEk9kEoAAAAJ&hl=en',
-			label: 'Scholar'
-		}
+			href: "https://www.linkedin.com/in/abdul-fathaah-s-614567137/",
+			label: "LinkedIn",
+		},
+		{
+			href: "https://scholar.google.com/citations?user=hEk9kEoAAAAJ&hl=en",
+			label: "Scholar",
+		},
 	];
 </script>
 
@@ -24,10 +27,14 @@
 			<div class="intro">
 				<h1>I am<br />Fathaah.</h1>
 				<p>
-					I'm a product engineer focused on machine learning and computer vision, based in
-					Gothenburg, Sweden. I build generative AI systems, synthetic data platforms, and
-					full-stack products—from founding ML work at early-stage startups to shipping tools
-					used at scale.
+					Welcome to my corner of the internet. I'm a product engineer
+					based in Gothenburg, Sweden. I build Gen AI systems, ML
+					models, biz ops, sim tools, and full-stack products. Worked
+					at scale-ups and startups, taking products 0 to 1. I am
+					passionate about turning research into products. <br />
+					<br />
+					My current area of interest is hacking diffusion models to create
+					datasets for computer vision tasks.
 				</p>
 			</div>
 
@@ -37,8 +44,12 @@
 					{#each socials as link (link.href)}
 						<a
 							href={link.href}
-							target={link.href.startsWith('mailto:') ? undefined : '_blank'}
-							rel={link.href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+							target={link.href.startsWith("mailto:")
+								? undefined
+								: "_blank"}
+							rel={link.href.startsWith("mailto:")
+								? undefined
+								: "noopener noreferrer"}
 						>
 							{link.label}
 						</a>
@@ -48,7 +59,12 @@
 		</div>
 
 		<div class="portrait">
-			<img src={portrait} alt="Fathaah" fetchpriority="high" decoding="async" />
+			<img
+				src={portrait}
+				alt="Fathaah"
+				fetchpriority="high"
+				decoding="async"
+			/>
 		</div>
 	</div>
 </div>

@@ -15,17 +15,21 @@
 		<h1>Blog</h1>
 		<p class="intro">Notes on ML, product, and building.</p>
 
-		<ul class="list">
-			{#each posts as post (post.slug)}
-				<li>
-					<a href="/blog/{post.slug}" class="post">
-						<time datetime={post.date}>{post.date}</time>
-						<h2>{post.title}</h2>
-						<p>{post.summary}</p>
-					</a>
-				</li>
-			{/each}
-		</ul>
+		{#if posts.length > 0}
+			<ul class="list">
+				{#each posts as post (post.slug)}
+					<li>
+						<a href="/blog/{post.slug}" class="post">
+							<time datetime={post.date}>{post.date}</time>
+							<h2>{post.title}</h2>
+							<p>{post.summary}</p>
+						</a>
+					</li>
+				{/each}
+			</ul>
+		{:else}
+			<p class="placeholder">Nothing here yet. Check back soon.</p>
+		{/if}
 		</div>
 	</div>
 </div>
@@ -41,6 +45,12 @@
 		color: var(--text-muted);
 		margin-bottom: 2rem;
 		font-size: 0.95rem;
+	}
+
+	.placeholder {
+		color: var(--text-muted);
+		font-size: 0.95rem;
+		line-height: 1.65;
 	}
 
 	.list {

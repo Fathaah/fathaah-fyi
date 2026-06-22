@@ -15,27 +15,31 @@
 		<h1>Projects</h1>
 		<p class="intro">Work across ML, product engineering, and startups.</p>
 
-		<ul class="list">
-			{#each projects as project (project.title)}
-				<li class="item">
-					<div class="header">
-						{#if project.url}
-							<a href={project.url} target="_blank" rel="noopener noreferrer">
+		{#if projects.length > 0}
+			<ul class="list">
+				{#each projects as project (project.title)}
+					<li class="item">
+						<div class="header">
+							{#if project.url}
+								<a href={project.url} target="_blank" rel="noopener noreferrer">
+									<h2>{project.title}</h2>
+								</a>
+							{:else}
 								<h2>{project.title}</h2>
-							</a>
-						{:else}
-							<h2>{project.title}</h2>
-						{/if}
-					</div>
-					<p>{project.description}</p>
-					<div class="tags">
-						{#each project.tags as tag (tag)}
-							<span class="tag">{tag}</span>
-						{/each}
-					</div>
-				</li>
-			{/each}
-		</ul>
+							{/if}
+						</div>
+						<p>{project.description}</p>
+						<div class="tags">
+							{#each project.tags as tag (tag)}
+								<span class="tag">{tag}</span>
+							{/each}
+						</div>
+					</li>
+				{/each}
+			</ul>
+		{:else}
+			<p class="placeholder">Nothing here yet. Check back soon.</p>
+		{/if}
 		</div>
 	</div>
 </div>
@@ -51,6 +55,12 @@
 		color: var(--text-muted);
 		margin-bottom: 2rem;
 		font-size: 0.95rem;
+	}
+
+	.placeholder {
+		color: var(--text-muted);
+		font-size: 0.95rem;
+		line-height: 1.65;
 	}
 
 	.list {

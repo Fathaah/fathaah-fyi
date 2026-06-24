@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="8 by 8 LED matrix showing a Pong game">
+	<defs>
+		<linearGradient id="bg" x1="0" y1="0" x2="0.2" y2="1">
+			<stop offset="0%" stop-color="#fed0bb" />
+			<stop offset="55%" stop-color="#fcb9b2" />
+			<stop offset="100%" stop-color="#f5c4b8" />
+		</linearGradient>
+		<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0%" stop-color="#2a1018" />
+			<stop offset="100%" stop-color="#12080c" />
+		</linearGradient>
+		<radialGradient id="led-on" cx="35%" cy="35%" r="65%">
+			<stop offset="0%" stop-color="#ff8a96" />
+			<stop offset="55%" stop-color="#b23a48" />
+			<stop offset="100%" stop-color="#8c2f39" />
+		</radialGradient>
+		<radialGradient id="led-off" cx="35%" cy="35%" r="65%">
+			<stop offset="0%" stop-color="#5a3040" />
+			<stop offset="100%" stop-color="#2a1018" />
+		</radialGradient>
+	</defs>
+
+	<rect width="400" height="300" fill="url(#bg)" />
+
+	<rect x="128" y="48" width="144" height="144" rx="6" fill="url(#panel)" stroke="#8c2f39" stroke-width="2" />
+	<rect x="134" y="54" width="132" height="132" rx="4" fill="#12080c" stroke="#461220" stroke-width="1" />
+
+	<!-- row 0 -->
+	<circle cx="142" cy="62" r="4.5" fill="url(#led-off)" />
+	<circle cx="157" cy="62" r="4.5" fill="url(#led-off)" />
+	<circle cx="172" cy="62" r="4.5" fill="url(#led-off)" />
+	<circle cx="187" cy="62" r="4.5" fill="url(#led-off)" />
+	<circle cx="202" cy="62" r="4.5" fill="url(#led-off)" />
+	<circle cx="217" cy="62" r="4.5" fill="url(#led-off)" />
+	<circle cx="232" cy="62" r="4.5" fill="url(#led-off)" />
+	<circle cx="247" cy="62" r="4.5" fill="url(#led-off)" />
+	<!-- row 1 -->
+	<circle cx="142" cy="77" r="4.5" fill="url(#led-off)" />
+	<circle cx="157" cy="77" r="4.5" fill="url(#led-off)" />
+	<circle cx="172" cy="77" r="4.5" fill="url(#led-off)" />
+	<circle cx="187" cy="77" r="4.5" fill="url(#led-off)" />
+	<circle cx="202" cy="77" r="4.5" fill="url(#led-on)" />
+	<circle cx="217" cy="77" r="4.5" fill="url(#led-off)" />
+	<circle cx="232" cy="77" r="4.5" fill="url(#led-off)" />
+	<circle cx="247" cy="77" r="4.5" fill="url(#led-off)" />
+	<!-- row 2 -->
+	<circle cx="142" cy="92" r="4.5" fill="url(#led-on)" />
+	<circle cx="157" cy="92" r="4.5" fill="url(#led-off)" />
+	<circle cx="172" cy="92" r="4.5" fill="url(#led-off)" />
+	<circle cx="187" cy="92" r="4.5" fill="url(#led-off)" />
+	<circle cx="202" cy="92" r="4.5" fill="url(#led-off)" />
+	<circle cx="217" cy="92" r="4.5" fill="url(#led-off)" />
+	<circle cx="232" cy="92" r="4.5" fill="url(#led-on)" />
+	<circle cx="247" cy="92" r="4.5" fill="url(#led-off)" />
+	<!-- row 3 -->
+	<circle cx="142" cy="107" r="4.5" fill="url(#led-on)" />
+	<circle cx="157" cy="107" r="4.5" fill="url(#led-off)" />
+	<circle cx="172" cy="107" r="4.5" fill="url(#led-off)" />
+	<circle cx="187" cy="107" r="4.5" fill="url(#led-off)" />
+	<circle cx="202" cy="107" r="4.5" fill="url(#led-off)" />
+	<circle cx="217" cy="107" r="4.5" fill="url(#led-off)" />
+	<circle cx="232" cy="107" r="4.5" fill="url(#led-on)" />
+	<circle cx="247" cy="107" r="4.5" fill="url(#led-off)" />
+	<!-- row 4 -->
+	<circle cx="142" cy="122" r="4.5" fill="url(#led-on)" />
+	<circle cx="157" cy="122" r="4.5" fill="url(#led-off)" />
+	<circle cx="172" cy="122" r="4.5" fill="url(#led-off)" />
+	<circle cx="187" cy="122" r="4.5" fill="url(#led-off)" />
+	<circle cx="202" cy="122" r="4.5" fill="url(#led-off)" />
+	<circle cx="217" cy="122" r="4.5" fill="url(#led-off)" />
+	<circle cx="232" cy="122" r="4.5" fill="url(#led-on)" />
+	<circle cx="247" cy="122" r="4.5" fill="url(#led-off)" />
+	<!-- row 5 -->
+	<circle cx="142" cy="137" r="4.5" fill="url(#led-off)" />
+	<circle cx="157" cy="137" r="4.5" fill="url(#led-off)" />
+	<circle cx="172" cy="137" r="4.5" fill="url(#led-off)" />
+	<circle cx="187" cy="137" r="4.5" fill="url(#led-off)" />
+	<circle cx="202" cy="137" r="4.5" fill="url(#led-off)" />
+	<circle cx="217" cy="137" r="4.5" fill="url(#led-off)" />
+	<circle cx="232" cy="137" r="4.5" fill="url(#led-off)" />
+	<circle cx="247" cy="137" r="4.5" fill="url(#led-off)" />
+	<!-- row 6 -->
+	<circle cx="142" cy="152" r="4.5" fill="url(#led-off)" />
+	<circle cx="157" cy="152" r="4.5" fill="url(#led-off)" />
+	<circle cx="172" cy="152" r="4.5" fill="url(#led-off)" />
+	<circle cx="187" cy="152" r="4.5" fill="url(#led-off)" />
+	<circle cx="202" cy="152" r="4.5" fill="url(#led-off)" />
+	<circle cx="217" cy="152" r="4.5" fill="url(#led-off)" />
+	<circle cx="232" cy="152" r="4.5" fill="url(#led-off)" />
+	<circle cx="247" cy="152" r="4.5" fill="url(#led-off)" />
+	<!-- row 7 -->
+	<circle cx="142" cy="167" r="4.5" fill="url(#led-off)" />
+	<circle cx="157" cy="167" r="4.5" fill="url(#led-off)" />
+	<circle cx="172" cy="167" r="4.5" fill="url(#led-off)" />
+	<circle cx="187" cy="167" r="4.5" fill="url(#led-off)" />
+	<circle cx="202" cy="167" r="4.5" fill="url(#led-off)" />
+	<circle cx="217" cy="167" r="4.5" fill="url(#led-off)" />
+	<circle cx="232" cy="167" r="4.5" fill="url(#led-off)" />
+	<circle cx="247" cy="167" r="4.5" fill="url(#led-off)" />
+
+	<circle cx="168" cy="206" r="5" fill="#8c2f39" stroke="#461220" stroke-width="1" />
+	<circle cx="232" cy="206" r="5" fill="#8c2f39" stroke="#461220" stroke-width="1" />
+	<line x1="168" y1="206" x2="168" y2="201" stroke="#fcb9b2" stroke-width="1.5" />
+	<line x1="232" y1="206" x2="232" y2="201" stroke="#fcb9b2" stroke-width="1.5" />
+
+	<text x="200" y="248" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.12em" fill="#461220">8x8 PONG</text>
+	<text x="200" y="266" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" letter-spacing="0.08em" fill="#8c2f39">MSP430</text>
+</svg>

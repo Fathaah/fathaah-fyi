@@ -1,0 +1,150 @@
+{
+	"projects": [
+		{
+			"id": "comfyui-infinite-you",
+			"title": "ComfyUI Infinite You",
+			"date": "2025-03",
+			"description": "ComfyUI node implementing ByteDance Infinite You for identity-preserving image generation — multi-face support, gaze control, and Flux integration.",
+			"thumbnail": "/projects/comfyui-infinite-you.jpg",
+			"url": "https://github.com/katalist-ai/ComfyUI-InfiniteYou",
+			"tags": [
+				"ComfyUI",
+				"Gen AI",
+				"Identity Preservation",
+				"Diffusion"
+			]
+		},
+		{
+			"id": "comfy-nodekit",
+			"title": "Comfy Nodekit",
+			"date": "2024-11",
+			"description": "Python toolkit for building ComfyUI workflows programmatically — typed node wrappers, graph primitives, and JSON export for the ComfyUI API.",
+			"thumbnail": "/projects/comfy-nodekit.svg",
+			"url": "https://github.com/katalist-ai/comfy-nodekit",
+			"tags": [
+				"ComfyUI",
+				"Python",
+				"Gen AI",
+				"Developer Tools"
+			]
+		},
+		{
+			"id": "ssl-chest-xray",
+			"title": "Commoditising Self-Supervision Led Pre-Trained Models For Medical Imaging",
+			"date": "2023-11",
+			"description": "KTH II2202 project — lung segmentation pre-processing and contrastive SSL pre-training on chest X-rays (CheXpert, VinBig) to build reusable foundation models for downstream diagnosis.",
+			"thumbnail": "/projects/ssl-chest-xray.jpg",
+			"url": "https://github.com/Fathaah/SSL-ChestXRay",
+			"tags": [
+				"Self-Supervised Learning",
+				"Medical Imaging",
+				"Deep Learning",
+				"PyTorch"
+			]
+		},
+		{
+			"id": "dehazing-synthetic-to-natural",
+			"title": "From Synthetic to Natural – Single Natural Image Dehazing Deep Networks Using Synthetic Dataset Domain Randomization",
+			"date": "2022",
+			"description": "Journal of Visual Communication and Image Representation. Domain randomization for single-image dehazing with synthetic-to-real transfer.",
+			"thumbnail": "/projects/dr-dehaze.jpg",
+			"url": "https://doi.org/10.1016/j.jvcir.2022.103636",
+			"tags": [
+				"Publication",
+				"Deep Learning",
+				"Computer Vision",
+				"Dehazing"
+			]
+		},
+		{
+			"id": "cervix-type-detection",
+			"title": "Cervix Type Detection Using a Self-Supervision Boosted Object Detection Technique",
+			"date": "2022",
+			"description": "International Journal of Imaging Systems and Technology. Self-supervised pretraining for cervical image object detection.",
+			"thumbnail": "/projects/publication.svg",
+			"url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ima.22696",
+			"tags": [
+				"Publication",
+				"Computer Vision",
+				"Medical Imaging"
+			]
+		},
+		{
+			"id": "lowe-path-finding",
+			"title": "Lowe's Store Navigator",
+			"date": "2020",
+			"description": "Top 10 in India at the Lowe's hackathon — modified A* pathfinding app to navigate customers through a store layout and optimize multi-item shopping trips.",
+			"thumbnail": "/projects/lowe-path-finding.jpg",
+			"url": "https://github.com/Fathaah/Lowe-Path-Finding",
+			"tags": [
+				"Python",
+				"A*",
+				"Hackathon",
+				"Pathfinding"
+			]
+		},
+		{
+			"id": "lift",
+			"title": "Lift",
+			"date": "2018-10",
+			"description": "Single-car elevator controller implemented in Verilog — floor tracking, request queueing, and door control logic.",
+			"thumbnail": "/projects/lift.jpg",
+			"url": "https://github.com/Fathaah/Lift",
+			"tags": [
+				"Verilog",
+				"Digital Logic",
+				"Hardware"
+			]
+		},
+		{
+			"id": "pong-microcontroller",
+			"title": "Pong on MSP430",
+			"date": "2019-04",
+			"description": "Classic Pong implemented on an MSP430 microcontroller, rendered on an 8×8 LED matrix display.",
+			"thumbnail": "/projects/pong.svg",
+			"url": "https://github.com/Fathaah/PONG_MICROCONTROLLER",
+			"tags": [
+				"C",
+				"Embedded Systems",
+				"MSP430"
+			]
+		},
+		{
+			"id": "synthetic-dataset-generation",
+			"title": "SynEnv — Synthetic Dataset Generation",
+			"date": "2018",
+			"description": "Unity3D synthetic data generator for training vision models — keypoint detection, depth maps, object localization, and classification from procedurally spawned 3D scenes.",
+			"thumbnail": "/projects/synthetic-dataset.png",
+			"url": "https://github.com/Fathaah/SynEnv",
+			"tags": [
+				"Unity3D",
+				"Computer Vision",
+				"Synthetic Data"
+			]
+		},
+		{
+			"id": "depth-perception-rgb",
+			"title": "Depth Perception Using RGB Images",
+			"date": "2018-06",
+			"description": "Extracted depth from RGB images using a GAN, trained on synthetically generated depth datasets from Unity3D.",
+			"thumbnail": "/projects/depth-perception.jpg",
+			"url": "https://medium.com/@abdulfta12/rgb-image-depth-perception-using-adversarial-networks-eda79a768293",
+			"tags": [
+				"GAN",
+				"Deep Learning",
+				"Computer Vision"
+			]
+		},
+		{
+			"id": "ball-e",
+			"title": "Ball-E",
+			"date": "2017-05",
+			"description": "An adventure game built in Unity3D, exploring physics, level design, and interactive gameplay mechanics built when I was in high school.",
+			"thumbnail": "/projects/ball-e.jpg",
+			"tags": [
+				"Unity3D",
+				"Game Development"
+			]
+		}
+	]
+}
